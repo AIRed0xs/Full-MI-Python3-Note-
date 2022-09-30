@@ -1,0 +1,7 @@
+Real world data comes with their unique blends. Sometime working with real world data, you will have to deal with categorical data and other time not. Categorical data are those types of data whose features' values contain limited number of categories. Take an example of feature gender that can have two categories: male and female.
+
+In many cases, categorical features have text values. And most ML models accept numerical inputs. That is the reason why we have to manipulate these types of categories to be in proper format accepted by ML algorithms.
+
+There are four techniques to encode or convert the categorical features into numbers. Here are them:
+
+Note that some of these encoding techniques can produce same output, the difference is only implementation. The first 3 will produce the numerical outputs while the latter will produce the one hot matrix (with 1s and 0s).

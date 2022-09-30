@@ -1,0 +1,58 @@
+Control Flow
+
+As an engineer, you will need to make decisions depending on the particular situation. You will also need to control the flow of the program and this is where Control Flow comes in.
+
+We will cover:
+
+    If statement
+    For loop
+    While loop
+
+4.1 If, Elif, Else
+
+Structure of If condition:
+
+if condition:
+  do something
+
+else:
+  do this
+
+
+
+John's age is same as Yan
+
+We can also put if condition into one line of code. This can be useful when you want to make a quick decision between few choices.
+
+Here is the structure:
+
+'value_to_return_if_true' if condition else 'value_to_return_if_false'
+
+Let's take some examples...
+
+For Loop
+
+For loop is used to iterate over list, string, tuples, or dictionary.
+
+Structure of for loop:
+
+for item in items:
+  do something
+
+
+
+For can also be used to iterate over an sequence of numbers. Range is used to generate the sequence of numbers.
+
+for number in range: 
+  do something
+
+One last thing about for loop is that we can use it to make a list. This is called list comprehension.
+
+While loop
+
+While loop will executes the statement(s) as long as the condition is true.
+
+Structure of while loop
+
+while condition:
+  statement(s)

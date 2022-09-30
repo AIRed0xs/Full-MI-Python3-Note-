@@ -1,0 +1,18 @@
+The default axis is 0. This is how the combined dataframes will look like if we change the axis to 1.
+
+If you have worked with SQL, what pd.merge() does may be familiar. It links data from different sources (different features) and you have a control on the structure of the combined dataset.
+
+Pandas Merge method(how): SQL Join Name : Description
+
+* left : LEFT OUTER JOIN : Use keys or columns from left frame only
+
+* right : RIGHT OUTER JOIN : Use keys or columns from right frame only
+
+* outer : FULL OUTER JOIN : Use union of keys or columns from both frames
+
+* inner : INNER JOIN : Use intersection of keys or columns from both frames
+
+Joining is a simple way to combine columns of two dataframes with different indexes.
+
+You can see that with df.join(), the alignment of data is on indexes.
+https://pandas.pydata.org/docs/user_guide/merging.html

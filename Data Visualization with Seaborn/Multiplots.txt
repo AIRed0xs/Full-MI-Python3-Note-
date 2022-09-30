@@ -1,0 +1,30 @@
+Multiplots
+
+Multiple plots functions are used to visualize multiple features on multiple axes.
+
+    Facet Grid
+    PairGrid
+    Pair Plot
+
+We have already plotted multiple features in previous sections but this section is going to be these grid plots.
+
+FacetGrid()
+
+FacetGrid() is used to create multiple grid plots. It allows us to plot the variables on row and column axes, and we can also use hue parameter to make the visual more clear based off a given feature.
+
+What's interesting about FacetGrid is that you can choose whether you plot on row axe, column axe or both.
+
+sns.FaceGrid() only create grids. In order to add visualizations, we will need to map it to a given plot type (scatter, histogram, bar....).
+
+PairGrid()
+
+We can use pair grid to get the higher level overview of the dataset. It will plot the pairwise relationship in the dataset.
+
+As you are going to see, it is much easier to use than FacetGrid.
+
+If you want, you have the option to select the features you are interested in instead of letting PairGrid plots everything.
+
+Pairplot()
+
+Pairplot is a simple, flexible and quick way to visualize the entire dataset. This can allows you to quickly understand the relationships between different features.
+

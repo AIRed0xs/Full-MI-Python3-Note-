@@ -1,0 +1,39 @@
+EDA is an important step in ML project. This is where we get to dig into the data, trying to understand more about it.
+
+By performing EDA, we can:
+
+    Know the summary statistics
+    Spot if there are missing values and the appropriate strategy for handling it
+    Spot if the data is skewed (or imbalanced)
+    Correlation between features
+    Understand the important features (or attributes) worth keeping and unhelpful features
+    Above all, answer some of the pressing questions about the data. These questions can be specific to data and its features but will around things like why this and this, or what could have caused this and this based on the analysis, etc...There are no right or wrong questions, the idea here is to use data to see if we can help answer some questions.
+
+Real World Data Exploratory Analysis : Titanic
+
+In this lab, we will use Titanic dataset which is available on Kaggle. We can also load it from Seaborn datasets but we will use the real data from Kaggle.
+
+https://www.kaggle.com/c/titanic/data
+
+If the data was coming from external sources, say csv, we could have used Pandas to read the file.
+
+titanic = pd.read_csv('.....')
+
+By default, titanic.head() will display the first five rows. But you can display the rows you want, just pass the integer. Example: titanic.head(10). .`tail() will display the last row
+
+It seems that both of these columns are the same except that one is numeric and other is text. They basically contain the same information of the class that the passengers paid for.
+
+Show the categories of the passengers in the column who. Use Pie chart to illustrate their value
+
+How many unique cities are there in the column embark_town? Plot their occurences.
+
+There are missing data in age and deck columns. We can also use heatmaps to show the missing values
+
+The purpose of this lab was to learn about the exploratory analysis. There is no limit to what you can do. The more time you spend with the data, the good your analysis will be. I used questions to make it simple and lead the way but there is no proper format for this. The goal is to be one with data
+
+
+Checking Correlating Features
+
+Checking correlation can help you to see the similarity between features. If two features correlate, that means they contain the same information and if one of them is removed, the analysis/model can be less affected.
+
+f you want to check how the features correlate with the label (survived, just for example), here is how to do it:

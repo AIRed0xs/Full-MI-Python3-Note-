@@ -1,0 +1,15 @@
+Let's learn two more useful built functions: they are map and filter. You can try to explore or use more built in functions on your own
+
+Map function
+
+Map gives you the ability to apply a function to an iterable structures such as list. When used with a list for example, you can apply the function to every element of the list.
+
+Let's see how it works.
+
+Filter function
+
+Let's say that you have a list of numbers and you want to filter the list and remain with odd numbers. Odd number is any number which can not be divided by 2.
+
+You can develop a function to calculate it but you would have to always pass single value or values but not entire list.
+
+Using filter, you can return true for every element of list evaluated by the function.

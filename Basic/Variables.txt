@@ -1,0 +1,14 @@
+A Variable is a location in memory where we store the data
+
+A variable in Python can either be of 3 data types: integer, float, or a string. Data type specifies the category of the variables.
+
+We can use type(variable_name) to find the type of given variable_name
+
+in Python, we use # and """ """ to add comments. Comments do not change anything and are not compiled
+
+We also use = to assign a value to the name of variable. Example: var_name = 1
+
+We can use print() to display the value of variable or the results of any expression.
+ 
+Note that it's different to comparison operator of equal to (==)
+

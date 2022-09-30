@@ -1,0 +1,5 @@
+Indexing or selecting 2D array may seems confusing but when you try it multiple times, you get the idea. If you are selecting an entire row, that means the all the columns are selected (but not their all values). And vice versa.
+
+As shown below, we are selecting the first row, but as you can see all columns are selected (:).
+
+array_2d[0,:]

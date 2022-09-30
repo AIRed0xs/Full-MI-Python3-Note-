@@ -1,0 +1,11 @@
+Comparison and Logic operators
+
+Comparison operators are used to compare values. It will either return true or false.
+
+
+
+Logic operators are used to compare two expressions made by comparison operators.
+Logic and returns true only when both expressions are true, otherwise false.
+Logic or returns true when either any of both expressions is true. Only false if both expressions are false.
+Logic not as you can guess, it will return false when given expression is true, vice versa.
+

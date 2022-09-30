@@ -1,0 +1,6 @@
+Real world datasets are messy, often with missing values. Pandas replace NaN with missing values by default. NaN stands for not a number.
+
+Missing values can either be ignored, droped or filled
+
+All rows are deleted because dropna() will remove each row which have missing value
+

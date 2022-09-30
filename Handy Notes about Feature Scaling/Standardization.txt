@@ -1,0 +1,19 @@
+In standardization, the numerical features are rescaled to have the 0 mean(u) and unity standard deviation(std or σ
+
+).
+
+Here is the formula of standardization. Xstd is the standardized feature, X is the feature, u
+is mean of the feature, and σ
+
+is the standard deviation.
+Xstd=X−uσ
+When Should you Standardize the Features?
+
+When you know that the training data at hand has a normal or gaussian distribution, you should standardize such data.
+
+Some ML algorithms such as Support Vector Machines(with rbf kernel) and linear models expect that the input data to have a normal distribution.
+
+In most cases, whether you choose normalization or standardization, it won't make much difference, but it can. So, it makes sense to try both especially if you are not sure about the distribution of the data.
+
+Here is how Standardization is implemented in Scikit-Learn.
+

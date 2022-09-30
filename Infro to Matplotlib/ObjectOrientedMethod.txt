@@ -1,0 +1,15 @@
+If you want to create and customize figures, object oriented method is for you
+This is the same as for subplots
+
+
+You can also iterate through the axes of subplots. This would be very helpful if you have many rows and columns.
+
+When using axes and subplots, the elements of figure can overlap. You can use plt.tight_layout() to correct that automatically.
+
+
+
+Many functions will be same while using Matlab Interface or Object oriented except things like defining labels, title, which we already saw above.
+
+To conclude the object oriented interface, you could use the function ax.set() and include all the plot things immediatey like xlim, ylim, xlabel, ylabel, title.
+
+Colors, Color Maps and Style

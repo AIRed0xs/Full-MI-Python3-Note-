@@ -1,0 +1,12 @@
+Regression Plots
+
+Seaborn takes data visualizations to other extents: Not only you can plot features, but you can also plot the linear relationship between two variables (linear model).
+
+Even if regplot() can be used for such goal, we will use lmplot().
+
+Multiple Plots
+
+Like we did before, we can make multiple plots by providing another variable to col and row.
+
+One last thing about regression plot in Seaborn: We can also use jointplot() and pairplot() where we use reg in parameter kind
+

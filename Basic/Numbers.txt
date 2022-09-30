@@ -1,0 +1,6 @@
+Numbers in Python can either be integers int or floats float
+Integer are real, finite, natural or whole numbers
+
+example
+1,2,3,4 are integers. Floats are numbers that have decimal points such as 4.6, 6.0, 7.7
+

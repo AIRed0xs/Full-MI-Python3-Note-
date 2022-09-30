@@ -1,0 +1,24 @@
+
+MorePlots
+
+We can use plot() to create more plot types. Here are the following types that we are going to see in this notebook:
+
+    Bar plot
+    Histogram
+    Box plots
+    Area plots
+    Kernel Density estimation plots (KDE)
+    Scattter plots
+    Pie charts
+
+We can also plot stacked bar plots. We will have to set stacked to True.
+
+Use .barh() to create horizontal bar charts
+
+You can also create histograms easily with dataframe.hist(). We saw this in the beginning.
+
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.pie.html#pandas.DataFrame.plot.pie
+
+https://pandas.pydata.org/docs/user_guide/cookbook.html#cookbook-plotting
+
+https://pandas.pydata.org/docs/ecosystem.html#ecosystem-visualization

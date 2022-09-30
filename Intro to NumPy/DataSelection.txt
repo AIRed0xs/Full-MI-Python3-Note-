@@ -1,0 +1,6 @@
+Indexing and slicing an Array
+
+Indexing: Selecting individual elements from the array
+
+Slicing: Selecting group of element from the array.
+

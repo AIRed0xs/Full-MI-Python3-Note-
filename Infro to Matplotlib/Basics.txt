@@ -1,0 +1,82 @@
+import matplotlib.pyplot as plt
+
+x_data and y_data can be lists, NumPy arrays, or a Pandas dataframes. In the latter parts, you will work with real world datasets where you can plot a feature as a dataframe.
+
+Below is the anatomy of the figure. It is taken from and built with matplotlib.org
+
+figsize=(width, height) can also be used in subplots that we saw earlier.
+
+plt.subplot will display multiple plots on same figure.
+
+You can use plt.figure(figsize=(width, height) to adjust the figure size to your desied size
+
+You can also specify the dot per inch (DPI)
+
+figsize=(width, height) can also be used in subplots that we saw earlier
+
+We can save the Matplot figures in different formats, be it PNG, JPG, PDF, etc...
+
+You can add the color to the line plots using color parameter, color codes(rgbcmyk), hex codes, and grayscale level.
+
+Color codes (RGBCYMK):
+
+'b'....blue
+'g'....green
+'r'....red
+'c'....cyan
+'m'....magenta
+'y'....yellow
+'k'....black
+
+#00FF00' is green. Google any hex code color
+
+Line styles and markers
+Line styles
+
+'-' ....solid line style
+'--'....dashed line style
+'-.'....dash-dot line style\
+':'....dotted line style
+'b'...# blue markers with default shape
+'or'...# red circles
+'-g'....# green solid line
+'--'...# dashed line with default color
+'^k:'...# black triangle_up markers connected by a dotted line
+
+Line Markers
+
+
+'.'...point marker
+','...pixel marker
+'o'...circle marker
+'v'...triangle_down marker
+'^'...triangle_up marker
+'<'....triangle_left marker
+'>'....triangle_right marker
+'1'....tri_down marker
+'2'....tri_up marker
+'3'....tri_left marker
+'4'....tri_right marker
+'s'....square marker
+'p'....pentagon marker
+'*'....star marker
+'h'....hexagon1 marker
+'H'....hexagon2 marker
+'+'....plus marker
+'x'....x marker
+'D'....diamond marker
+'d'....thin_diamond marker
+'|'....vline marker
+'_'....hline marker
+
+If you want to add texts or annotation in visualization, Matplotlib can allow you to do that.
+
+
+
+There are alot of interesting things that you can do with annotation and texts by plt.text() and plt.annotate(). Learn more at Matplotlib documentation.
+
+If you have ever used Matplab language, standing for Matrix Laboratory, you have probably saw that all plots or subplots were easy to create and that's how it is done in Matlab. It is Matlab Interface.
+
+How do we create customized plots?
+
+https://matplotlib.org/stable/tutorials/text/annotations.html#sphx-glr-tutorials-text-annotations-py

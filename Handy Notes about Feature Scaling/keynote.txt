@@ -1,0 +1,14 @@
+http://www.faqs.org/faqs/ai-faq/neural-nets/part2/section-16.html
+
+https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling
+
+Machine Learning models are very selective about the type and range of values that have to go for their input in order to work well. With the exception of decision trees, most ML models will expect you to scale the input features. What is feature scaling?
+
+Feature scaling is nothing other than transforming the numerical features into a small range of values. In this notebook, we will see the following scaling technique:
+
+    Normalization
+    Standardizatiom
+    Robust Scaling
+
+Normalization and Standardization can be used or applied interchangeably, but they are quite different and they are suited for different purposes.
+

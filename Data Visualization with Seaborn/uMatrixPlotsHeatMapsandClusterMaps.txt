@@ -1,0 +1,21 @@
+In data analysis, sometime it is handy to visualize the data as color encoded matrices and can be used to find the clusters within the data.
+
+Heat Maps
+
+heatmap() will color the matrix.
+
+Let's first see it for a numpy array and we will apply it to a real world dataset.
+
+If you want to add the values in addition to color, you can set the parameter annot to True.
+
+Cluster Maps
+
+clustermap will plot the clustered heatmap.
+
+
+
+So far, you have saw how flexible Seaborn is in visualizing data with different kinds of plots.
+
+By default, the Seaborn plots are clear and good looking. But there are times you are going to need more attractive visualizations and that is what is coming up.
+
+

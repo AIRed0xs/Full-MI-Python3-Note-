@@ -1,0 +1,5 @@
+We can change the style of the plot with plt.style.use('style_name') to create beatiful visualizations.
+
+https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html#sphx-glr-gallery-style-sheets-style-sheets-reference-py
+
+There are more great style cheets that you should check out if you are interested in creating attractive visualizations

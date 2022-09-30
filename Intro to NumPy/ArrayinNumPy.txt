@@ -1,0 +1,13 @@
+NumPy is a scientific tool used to make mathematical computations easily
+Array can either be vector or matrice. A vector is one dimensional array, and a matrix is a two or more dimensional array
+
+Generating Array
+
+NumPy offers various options to generate an array depending on particular need, such as:
+
+    Generating identity array
+    Generating zero array of a given size
+    Generating ones array with a given size
+    Generating an array in a given range
+    Generating an array with random values
+

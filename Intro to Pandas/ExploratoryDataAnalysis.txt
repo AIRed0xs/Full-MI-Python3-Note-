@@ -1,0 +1,1 @@
+All above was the basics. Let us apply some of these techniques to the real world dataset, Red wine quality

@@ -1,0 +1,121 @@
+Data structures are used to organize and store the data. Algorithms supports operations on data.
+Python has 4 main data structures: Lists, Dictionaries, Tuples and Sets.
+
+#List
+A list is a set of ordered values. Each value in a list is called an element or item and can be identified by an index
+A list supports different data types, we can have a list of integers, strings, and floats
+
+What we will see with Python lists:
+
+    Creating a list
+    Accessing elements in a list
+    Slicing a list
+    Changing elements in a list
+    Traversing a list
+    Operations on list
+    Nested lists
+    List methods
+    List and strings
+    
+In order to delete a given element in a list, we can empty slice it but the better way to delete element is to use del keyword.
+
+if you know the index of the element you want to remove, you can use pop(). If you don't provide the index in pop(), the last element will be deleted.
+
+Also, we can use remove() to delete the element provided inside the remove() method.
+We can also use append() to add element to the list
+
+Traversing a list
+
+There are times that we may need to go over the list to read the elements of the list or perform iterative operations. We can use for loop to traverse through the list.
+
+List Methods
+
+Python also offers methods which make it easy to work with lists. We already have been using some list methods such as pop() and append() but let's review more other methods.
+
+List and strings
+We previously have learned about strings. Strings are sequence of characters. List is a sequence of values.
+
+The split() string method allows to specify the character to use a a boundary while splitting the string. It's called delimiter
+
+Dictionaries
+
+Dictionaries are powerful Python builtin data structure that are used to store data of key and values. A dictionary is like a list but rather than using integers as indices, indices in dictionary can be any data type. Also, unlike lists, dictionary are unordered. Dictionaries dont guarrantee keeping the order of the data.
+
+Generally, a dictionary is a collection of key and values. A dictionary stores a mapping of keys and values. A key is what we can refer to index.
+
+What we will see:
+
+    Creating a dictionary
+    Accessing values and keys in dictionary
+    Solving counting problems with dictionary
+    Traversing a dictionary
+    The setdefault() method
+
+Creating a dictionary
+
+We can create with a dict() function and add items later, or insert keys and values right away in the curly brackets { }. Let's start with dict() function to create an empty dictionary.
+
+You can verify it's a dictionary by passing it through type()
+
+Let's add items to the empty dictionary that we just created.
+
+Let's create a dictionary with {}. It's the common way to create a dictionary.
+
+To add key and values to a dictionary, we just add the new key to [ ] and set its new value. See below for example...
+
+
+Accessing the values and keys in a dictionary
+Just like how we get values in a list by using their indices, in dictionary, we can use a key to get its corresponding value.
+
+We can also check if a key exists in a dictionary by using a classic in operator
+
+To get all the keys, value, and items of the dictionary, we can respectively use keys(), values(), and items() methods.
+
+Lastly, we can use get() method to return the value of a specified key. Get method allows to also provide a value that will be returned in case the key doesn't exists. This is a cool feature!!
+
+
+Solving counting problems with dictionary
+
+When solving real world problems, or perhaps doing interviews, most problems involve counting certain elements. Let's take a simple example: Given a string, write an algorithm that can count the occurence of each character.
+
+Solution:
+
+The first approach would be to create a list of 128 elements given that the standard size of characters in ASCII is 128, convert each character to a number with ord() method(char() convert from number to string), use the number as the index of the string, and then increment it as you see a recurring character. The code would like like this...
+
+Using dictionary, we would not have to worry about the size of the string or the nmber of characters to keep beforehand. We would just create a dictionary whose keys are characters and values are counts of corresponding characters. See character for the first time, add it to the dictionary with value of 1 since it's the first count, and then increment it if the character exists in dictionary.
+
+Also, we can use get() method that we saw above to simplify our solution. To make it a bit fancier, let's also assume that the string will be provided by the user at the beginning of the program.
+
+
+Traversing a dictionary
+We previously used for loop in dictionary to iterate through the values. Let's review it again.
+
+
+The setdefault() Method
+
+The setdefault() method allows you to set a value of a given key that does not already have a key. This can be helpful when you want to update the dictionary with a new value in case the key you are looking for does not exist.
+
+
+
+Cool! The UK value is added to the dictionary because it was not in the dictionary before. The setdefault() method and get() method are different.
+
+We can also use the setdefault() in the count program we wrote above.
+
+
+
+Summarizing dictionary
+
+    Dictionaries are not ordered and they can not be sorted - list are ordered (and unordered) and can be sorted.
+
+    Dictionary can store data of different types: floats, integers and strings and can also store lists.
+
+
+Tuples
+
+Tuple is similar to list but the difference is that you can't change the values once it is defined (termed as immutability). Due to this property it can be used to keep things that you do not want to change in your program. Example can be a country codes, zipcodes, etc...
+
+Sets
+
+Sets are used to store the unique elements. They are not ordered like list.
+As you can see, set only keep unique values. There can't be a repetition of values.
+

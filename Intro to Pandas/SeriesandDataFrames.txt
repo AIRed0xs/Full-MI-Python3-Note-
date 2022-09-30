@@ -1,0 +1,12 @@
+Both series and DataFrames are Pandas Data structures.
+
+Series is like one dimensional NumPy array with axis labels.
+
+DataFrame is multidimensional NumPy array with labels on rows and columns.
+
+Working with NumPy, we saw that it supports numeric type data. Pandas on other hand supports whole range of data types, from numeric to strings, etc..
+Note the data types int64 and object
+
+Creating DataFrames
+
+DataFrames are the most used Pandas data structure. It can be created from a dictionary, 2D array, and Series

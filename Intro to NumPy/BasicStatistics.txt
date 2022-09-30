@@ -1,0 +1,3 @@
+https://numpy.org/doc/stable/reference/routines.statistics.html#order-statistics
+
+With NumPy, we can compute the basic statistics such as the standard deviation (std), variance (var),mean, median, minimum value, maximum value of an array.

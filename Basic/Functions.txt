@@ -1,0 +1,26 @@
+Functions
+
+Functions are used to write codes or statements that can be used multiple times with different parameters.
+
+One fundamental rule in programming is "DRY" or Do not Repeat Yourself. Functions will help to not repeat yourself.
+
+This is how you define a function in Python:
+
+def function_name(parameters):
+
+  """
+  This is Doc String
+  You can use it to notes about the functions
+  """
+  statements 
+
+  return results
+
+    function_name is the name of the function. It must not be similar to any built in functions. We will see built in functions later.
+    parameters are the values that are passed to the function.
+
+    Doc String is used to add notes about the function. It is not a must to use it but it is a good practice.
+
+    return specify something or value that you want to return everytime you call or run your function.
+
+As you can see, functions do not need to always have return. When you only want to display the customized message (not involving expression), print() will be enough.

@@ -1,0 +1,3 @@
+Data Manipulation is important step in Machine Learning project. Let's some of NumPy methods and functions which are useful in data manipulation.
+
+np.reshape(array_name, newshape=(rows, columns) or array_name.reshape(rows, columns) change the shape of the array. The rows and columns of the new shape has to comform with the existing data of the array. Otherwise, it won't work. Take an example, you can convert (3,3) array into (1,9) but you can't convert it into (5,5).

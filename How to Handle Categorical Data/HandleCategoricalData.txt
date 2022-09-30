@@ -1,0 +1,24 @@
+You can see that even displaying information about the dataset, some features like deck or class have category as data typ
+
+Mapping Method¶
+
+Mapping method is straight forward way to encode categorical features with few categories. Let's apply it to the class feature: It has three categories: Third, First, Second. We create a dictionary whose keys are categories and values are numerics to encode to and then map it to the dataframe.
+
+Warning: Ordinary Encoder can't handle missing values. It will be error. Try it on embarked and see..
+
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html?highlight=label%20encoder#sklearn.preprocessing.LabelEncoder
+
+Label Encoding
+
+Label Encoding is noted to used for encoding target features (per sklearn documentation) but otherwise, it can also be used to achieve our purpose of encoding categorical features.
+
+It also can't support missing values. So, to make it simple, let's drop all missing values.
+
+Pandas Dummies
+
+This is also simple way to handle categorical features. It will create extra features based on the available categories. Let's apply it to the feature who.
+
+One Hot Encoding
+
+This is the last encoding type of our list. It will convert a feature into one hot matrix. Additional features corresponding to the values of the given categories will be created. Basically same as dummies.
+

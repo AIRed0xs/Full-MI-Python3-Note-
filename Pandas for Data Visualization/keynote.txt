@@ -1,0 +1,4 @@
+Pandas that we used for data analysis and manipulation can also be used to visualize data.
+
+And it is so simple. To step back a bit, Matplotlib is the primary visualization library in Python. Both Seaborn and Pandas visualization are built on top of Matplotlib.
+

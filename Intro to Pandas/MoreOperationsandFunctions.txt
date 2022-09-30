@@ -1,0 +1,4 @@
+Group by involves splitting data into groups, applying function to each group, and combining the results.
+
+You can also use aggregation() after groupby
+

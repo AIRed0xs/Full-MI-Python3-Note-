@@ -1,0 +1,25 @@
+More Useful Python Stuff
+
+Python is an awesome programming language that has a lot of useful functions.
+
+Let's see more useful things you may need beyond what's we just saw already.
+
+List Comprehension
+
+List comprehension makes it easy to make a new list from an existing list based on a given conditions. It's very concise and readable.
+
+Take an example for the following cases
+
+Enumerate Function
+
+Enumerate function convert iterable objects into enumerate object. It basically returns a tuple that also contain a counter.
+
+That's sounds hard, but with examples, you can see how powerful this function is...
+
+As you can see, each element came with index counter automatically. The counter initially start at 0, but we can change it.
+
+Zip Function
+
+Zip is an incredible function that takes two iterators and returns a pair of corresponsing elements as a tuple.
+
+The zip object return nothing. In order to show the zipped elements, we can use a list. It's also same thing for enumerate you saw above.

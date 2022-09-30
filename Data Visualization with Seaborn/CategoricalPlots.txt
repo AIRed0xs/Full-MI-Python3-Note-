@@ -1,0 +1,54 @@
+Categorical plots are used to visualize the categorical data.
+
+In Seaborn, there are various plot functions that we are going to see:
+
+    Categorical estimate plots
+
+    barplot()
+    countplot()
+    pointplot()
+
+    Categorical distribution plots
+
+    boxplot()
+    boxenplot()
+    violinplot()
+
+    Categorical scatter plots
+
+    stripplot()
+    swarmplot()
+
+Just like we saw in distribution plots, Seaborn also provides a high level function catplot() to plot all these types above. You just have to pass the kind parameter. In order of what how they are listed above, here is the kind parameter: bar, count, point, box, boxen, violin, strip, swarm.
+
+We will use both the high level function catplot and the specific categorical function along the way.
+
+Categorical estimate plots
+Barplot() and Countplot()
+
+Barplot is used to visualize the aggregated categorical data based on different estimation functions (mean being the default. We can either use barplot() or catplot(...,kind='bar).
+
+Countplot is used to visualize the number of observations in each category. It's like histogram for categorical data
+
+
+pointplot()
+
+Rather than plotting bars, pointplot() plots the point estimation of the categorical data. You may also notice that it connects the points with the categorical variable specified at hue.
+
+Categorical distribution plots
+boxplot() and boxenplot(), violinplot()¶
+
+Both Box, boxen, and violin plots are used to plot the distributions of the categorical data.
+
+"A box plot (or box-and-whisker plot) shows the distribution of quantitative data in a way that facilitates comparisons between variables or across levels of a categorical variable. The box shows the quartiles of the dataset while the whiskers extend to show the rest of the distribution, except for points that are determined to be “outliers” using a method that is a function of the inter-quartile range."
+
+Violin plot shows the distributions of the categorical data but features the kernel density of the underlyining estimation.
+
+Categorical scatter plots
+stripplot() and swarmplot()
+
+These types of plots make it easy to show the categorical data with scatter plots.
+
+Plotting Multiple Categorical plots
+
+Using Facetgrid (Multi-plot grid for plotting conditional relationships), we can plot multiple plots with catplot(....)

@@ -1,0 +1,10 @@
+Lamdba Functions
+
+There are times that you want to create anonymous functions. These types of functions will only need to have one expressions.
+
+Built in Functions
+
+Python being a high level programming language, it has bunch of built in functions which make it easy to get quick computations done.
+
+An example of built in functions we used is len() which gives the length of the string or the list givhttps://github.com/Nyandwi/python_basics/blob/main/n as the input to it.
+https://docs.python.org/3.12/library/functions.html

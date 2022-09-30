@@ -1,0 +1,17 @@
+Indexing and selection works in both Series and Dataframe.
+
+Because DataFrame is made of Series, let's focus on how to select data in DataFrame
+
+You can also use loc to select data by the label indexes and iloc to select by default integer index (or by the position of the row)
+
+You can also use isin() and where() to select data in a series or dataframe.
+
+As you can see, it returned True wherever a country code or name was found. Otherwise, False. You can use a dictinary to match search by columns. A key must be a column and values are passed in list
+
+where allows you to replace the values that doesn't meet the provided condition with any other value. So, if we do df2.where(df2 > 4, 0) as follows, all values less than 4 will be replaced by 0
+
+Iteration
+df.items() #Iterate over (column name, Series) pairs.
+df.iteritems() Iterate over (column name, Series) pairs.
+DataFrame.iterrows() Iterate over DataFrame rows as (index, Series) pairs.
+DataFrame.itertuples([index, name]) Iterate over DataFrame rows as namedtuples.

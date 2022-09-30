@@ -1,0 +1,35 @@
+These kind of plots are used to visualize the distribution of the features. Understanding how your data is distributed can help you to determine the range of values, their central tendency, or if they maybe inclined in one direction and also spotting outliers.
+
+Distribution plots functions:
+
+    displot()
+    jointplot()
+    pairplot()
+    rugplot()
+    kdeplot
+
+Plotting Histograms with displot() and histplot()
+
+Histogram is a bar plot whose x-axis is a variable or a feature and y-axis being the count of values of that particular variable. By default, displot() plots the histogram.
+
+Histogram is a bar plot whose x-axis is a variable or a feature and y-axis being the count of values of that particular variable. By default, displot() plots the histogram.
+
+By default, Kernel Density Estimator(KDE) is True. By setting it off, we should remain with the histograms. A histogram displays data by grouping data into bins. We can set the bins to a value of choice.
+
+We can also make stacked bars by setting the parameter multiple='stack'
+
+We use jointplot() to plot two variables with bivariate and univariate graphs. We can have the following options in kind: scatter, reg, resid, kde, hex. The default kind is scatter.
+
+pairplot() visualize all possible distributions of variables in datasets. This is a cool plot, you can immmediately see relationships between features
+
+rugplot() plot marginal distributions by drawing ticks or dash along the x and y axis of the univariate variable.
+
+We can visualize the probability density of a variable. Different to histogram which shows the counts, KDE plot smooths the visualization with a Guassian kernel.
+
+Whether you use displot() or kdeplot(), you can see they are very handy in visualizing the density distributions.
+
+Cumulative Distributions
+
+There are times we would like to visualize the cumulative distributions. By setting kind parameter in displot() to ecdf, we can plot the cumulative or increasing curve of an univariate variable.
+
+ecdf stands for empirical cumulative distribution function

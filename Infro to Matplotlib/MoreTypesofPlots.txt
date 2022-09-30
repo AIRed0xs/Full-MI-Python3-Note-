@@ -1,0 +1,12 @@
+These types of plots are used to display the relationship between two variables using dots (by default, more styles can be used).
+
+Bar plots are used to display the relationship between two variables, one being mumeric and other being categorical
+
+Pie plots are used to show the proportion of a feature elements in circular form.
+
+Histograms are used to show the frequency distribution of the data values.
+
+That's it for the basic plots in Matplotlib. To learn more about 3D Plotting and other advanced plots, check out the official documentary.
+
+https://matplotlib.org/stable/gallery/index.html#mplot3d-examples-index
+

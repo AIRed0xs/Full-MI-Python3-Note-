@@ -1,0 +1,33 @@
+These kind of plots are used to analyze the relationship between features
+    Scatter Plots
+    
+    Line Plots
+
+Scatter Plots
+
+In order to visualize the relationship between between two numeric features, scatter plot can be a go to plot over other types.
+
+We will use sns.scatterplot(data, x, y, hue, style, palette, size, sizes, legend, markers...) and also sns.relplot().
+
+With hue parameter, we can map another feature to the plot.
+
+You can see it makes the plots more clear. In terms of this titanic dataset, you can directly identify that women paid high fare than men.
+
+To also highlight the difference between the hue classes, we can add marker style as follows.
+
+You can also use specific markers with style and markers paremeters.
+
+Adding same feature on hue to size will make the plot more meaninfgul. sizes will control the range of marker areas of size. The
+
+Line Plots
+
+Line plots are used to analyze the changes in one variable with respect to other variable such as time. An example, say you want to see the daily changes in revenues everyday.
+
+Data visualization is an art. We will see more visualization types but always, there is no viz type that is going to be fit all. It is always good to consider the audience and the goal of the analysis.
+
+To make line plot in Seaborn, we will use sns.relplot(), the kind parameter being line. You can make a scatter plots by changing the kind to scatter.
+
+You can remove the confidence intervals by setting parameter ci=None. Setting ci=sd will instead show standard deviation and that can be useful sometime
+
+By default, relplot will aggregate the values on y axis in accordance to x axis. You can get rid of it by settng estimator=None.
+

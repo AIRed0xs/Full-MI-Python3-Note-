@@ -1,0 +1,19 @@
+Using Matplotlib image functions, we can visualize images.
+import matplotlib.image as mpimg
+
+We will use a sample image from Scikit-Learn, a Machine learning framework.
+
+
+Enhancing the Image
+
+The image we have is RGB(Red, Green, Blue) color channel. Let's select a single color using NumPy slicing technique.
+
+cmap stands for color maps. There are alot of color maps to choose fromcmap stands for color maps. There are alot of color maps to choose from
+
+https://matplotlib.org/stable/tutorials/colors/colormaps.html
+
+https://matplotlib.org/stable/index.html
+
+https://github.com/matplotlib/AnatomyOfMatplotlib
+
+https://matplotlib.org/stable/gallery/index.html

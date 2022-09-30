@@ -1,0 +1,1 @@
+You can use a condition to select values in an array. Let's use comparison operators to select the values.

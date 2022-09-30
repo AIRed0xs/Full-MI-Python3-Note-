@@ -1,0 +1,47 @@
+Seaborn allows to customize the visualizations depending on our needs. We may want to have control on the plot styles, colors. Let's see how that works.
+
+Styles and Themes
+
+There are five styles in Seaborn: darkgrid(default), whitegrid, dark, white, and ticks.
+
+Removing the Axes Spines
+
+We can also use despine() to remove the top and right axes spines
+
+We can also move the spines away from the data by setting the offset distance or points that spines should move away from the axes.
+
+
+Size and Aspect
+
+We can use Matplotlib figsize function to change the size of Seaborn plots.
+
+
+
+You can also set the size of the plot by using parameters size and aspect but they do not work in all plots.
+Scaling plot elements with the context
+
+Context is used to control the scale of the elements of the plot. This can be really helpful depending on where you want to use the visualizations.
+
+We use sns.set_context() to achieve that. There are four contexts: paper, notebook(default), talk, and poster.
+
+But we also have to reset the style first.
+
+Colors
+
+Seaborn allows us to choose color that we think can make the visuals attractive.
+
+With whole range of color palettes, there are so many options to choose from.
+
+We can either use sns.color_palette() before each plot, or set palette inside the plot definition.
+
+
+
+As you can see, it makes the plots more appearing. There so many palettes and here is the list. You can play with them to see what color matches your purpose.
+
+To see the available color palettes, check out the documentation or this cheat sheet.
+
+Lastly, you can use sns.set_theme() to directly set the style, palette, and context.
+
+https://seaborn.pydata.org/tutorial/color_palettes.html
+
+https://github.com/matplotlib/cheatsheets/blob/master/cheatsheets-2.png
