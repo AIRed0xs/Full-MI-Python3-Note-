@@ -1,0 +1,15 @@
+It's not often that we get clean data, 
+real world data is very messy. In fact, missing values are one of the most cases that data scientist and machine learning engineers are likely to deal with day to day, 
+and honestly it takes time to come up with the strategy to remove such missing values effectively.
+
+Though we have tools that make the technical side easier, 
+we often end up not checking how the filled values or dropped values fit with the existing data and the target goals of the analysis. Not checking this can leave us communicating wrong information, or spending time doing hyperparameter tuning and model selection thinking that the data is fine, so it must be something else, 
+and end up tuning the parameters weeks and weeks
+
+https://www.kaggle.com/search?q=California+housing+in%3Adatasets
+
+Having said that, in this tutorial I will walk through the common ways that data scientists and machine learning engineers use to handle missing values and we will see the best practices as we conclude the post. 
+Let's get dive in! I will use california housing, 
+a classic dataset in Machine learning found here.
+
+As you can see, the missing values are filled in accordance to the other features. For instance, a house with total_room of 1467.0, and bedrooms of 190, and 1274 rooms for 200 for bedrooms. Note that for each values to be missing estimated, every corresponding features is considered.
