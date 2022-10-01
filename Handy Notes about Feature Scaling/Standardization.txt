@@ -6,7 +6,7 @@ Here is the formula of standardization. Xstd is the standardized feature, X is t
 is mean of the feature, and σ
 
 is the standard deviation.
-Xstd=X−uσ
+Xstd=X/uσ
 When Should you Standardize the Features?
 
 When you know that the training data at hand has a normal or gaussian distribution, you should standardize such data.

@@ -12,3 +12,20 @@ Feature scaling is nothing other than transforming the numerical features into a
 
 Normalization and Standardization can be used or applied interchangeably, but they are quite different and they are suited for different purposes.
 
+
+Final Notes
+
+Scaling the input data before feeding it to a machine learning model is always a good practice.
+
+Here are the punchlines:
+
+    Scaling the features helps the model to converge faster.
+    Normalization is scaling the data to be between 0 and 1. It is preferred when the data has not a normal distribution
+    Standardization is scaling the data to have 0 mean and unit standard deviation. It is preferred when the data has a normal or gaussian distribution.
+    Robust scaling technique is used if the data has many outliers.
+    In most cases, the choice of scaling technique won't make much difference (or it can). Try all of them and see what work best with your data.
+    Only the features are scaled. The labels should not be scaled.
+    Make sure to not fit the scaler on test data. Only transfom.
+
+Don't: scaler.fit_transfrom(X_test)
+Do: scaler.transform(X_test)

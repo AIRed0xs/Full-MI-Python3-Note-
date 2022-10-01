@@ -1,2 +1,13 @@
 https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html#sklearn.preprocessing.RobustScaler
 
+https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html#sklearn.preprocessing.RobustScaler
+
+Robust scaler is kind of similar to standardization but is used when the data contains many outliers.
+
+Instead of dropping mean, the median is dropped and the data is scaled to the Interquartile Range(IQR). The IQR is the range between the 1st quartile (25th quantile) and the 3rd quartile (75th quantile).
+
+Like normalization and standardization, Roust scaler is also implemented easily in Scikit-Learn.
+
+http://www.faqs.org/faqs/ai-faq/neural-nets/part2/section-16.html
+
+https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling
