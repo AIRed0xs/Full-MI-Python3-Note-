@@ -1,0 +1,26 @@
+There are number of methods to handle missing values,
+but basically, you can do one of these but keep in mind that each can affect our analysis:
+
+*Removing the missing values
+*Filling the missing values
+*Leaving the missing values as it is.
+
+Starting from the first one, if you were to remove the missing values, fairly simple. 
+You can do the following, and you are done.
+
+Now, you're done. 
+However, you can wish to remove the missing values by a condition. 
+In this case, you can do the following. 
+Say you want to remove the columns that contain missing values. 
+Since we don't have more than 1 of such columns, this will not change our dataset, but that's something you can try at your end.
+
+As you can see, total_bedroom is removed. 
+This is can however led to the loss of data that could be meanigful despite that it contains NaNs. 
+If you wanted more control, then you can use 'threshold' to specify how many non missing values (minimum) to keep for a given column or row. 
+We will not see the effect of this, but you can try that on your end.
+
+Another Interesting thing here to try is to remove the rows or columns that are empty. 
+This can save you time if you have hundreds of columns or rows that you want to remove specifically. 
+When how is set to 'all', you are basically saying remove all columns which are all null (contain missing values). 
+All the thing we saw so far involving the axis='columns', can be applied to rows
+

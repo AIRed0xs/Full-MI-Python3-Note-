@@ -1,0 +1,19 @@
+https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html#sklearn.impute.IterativeImputer
+
+
+The problem is how do you deal with the missing value effectively? 
+Do you remove them? Or what if there would be other ways to handle it?
+
+If you had few missing values, 
+no doubt that it would be good to remove them completely to avoid imputing them with irrelevant values. 
+""Quality over quantity""
+
+But also you may wish to keep the data and perhaps find a better way to handle the missing values. 
+One of the best way out there (considering all the flaws of the above methods) is to fill the given missing value considering the values of corresponding features. In this case, we will use sklearn method called Iterative Imputer or Regression Imputer. This works on the principle of Linear regression. I will not explain that here, but here is how it is done.
+
+What you can know is this estimates each feature from all the others. 
+You can read more about it
+
+As you can see, the missing values are filled in accordance to the other features. 
+For instance, a house with total_room of 1467.0, and bedrooms of 190, and 1274 rooms for 200 for bedrooms. 
+Note that for each values to be missing estimated, every corresponding features is considered.

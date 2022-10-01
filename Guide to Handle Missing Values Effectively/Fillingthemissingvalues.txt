@@ -1,0 +1,15 @@
+Downside about this is that if the first value would be a missing value, then the rest are same. 
+Also, see what happened at the index 97. 
+The house with total rooms of 335 has a total_bedroom of 1331, which is impossible. 
+All the method introduced above can led to serious bias or wrong results, leading to wrong decisions. Before we wrap how to fill missing values, 
+let's also look at other ways you can use to fill the missing values. Say we want to fill all missing values by mean or median of a given column.
+
+https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html#sklearn.impute.IterativeImputer
+
+
+
+As you can see, the total_bedroom is filled with mean. 
+Take for example at index 3 and 4.
+
+But also this brings an issue. 
+You will also find somewhere that the number of bedrooms are greater than the number of rooms in a house and that's again impossible and can lead to wrong analysis.
