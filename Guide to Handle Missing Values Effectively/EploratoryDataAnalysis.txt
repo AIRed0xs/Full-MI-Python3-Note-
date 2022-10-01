@@ -1,0 +1,2 @@
+While our experiment is not about exploratory data analysis at most, 
+you can see that the total bedrooms correlate with total rooms, and that make sense because the bedrooms are counted in total rooms
