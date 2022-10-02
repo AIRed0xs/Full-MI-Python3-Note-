@@ -1,0 +1,1 @@
+Early in the previous parts, we saw that regression is a supervised learning type in which we are predicting a continous value. Take an example, given the information about a house such as its region, size, number of bedrooms, can you predict the price of the house?

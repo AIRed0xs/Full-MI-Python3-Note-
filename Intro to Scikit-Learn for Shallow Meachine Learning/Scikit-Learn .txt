@@ -1,1 +1,16 @@
 https://scikit-learn.org/stable/
+Scikit-Learn (aka sklearn) is a simple, beautifull and well designed machine learning library.
+
+Scikit-Learn provides various learning algorithms. Using them is as simple as filling a cup of coffee
+
+we will import Linear Regressor from sklearn linear models. We will also imports NumPy which we will use to create our sample data and Matplotlib to plot the created data.
+
+After we have imported Linear Regressor, we will create our data. It's a numpy array, X and y. If you are too quick to crunch the numbers, you are going to see that the X and y represent a linear equation y=2X+1
+
+That was simple. Next, we are going to train the model. Using fitmethod, we are going to pass the input data X and output data y. y is also referred to as a label.
+
+Huum, that was quick. Now the model is trained on the dataset. Let's try to see how confident it is on the data it never saw. We will create a test array having the numbers from 9 to 11, just to test if the predictions will be 19, 21, 23 respectively. Let's do that!!
+
+As you can see, it did well. It was able to learn the relationship between X and y just from the data. This the what it means when we say that different to traditional programming which requires rules and data to give results, machine learning takes data and results and give the rules.
+
+Great, the model was able to determine the exact linear equation that we used when creating the data. The coef is the coefficient, commonly known to weight. So in this case it is 2, and it what is multplied to the input data X. On the other hand, 1 is the intercept, commonly known to bias. Combining them we get our equation, y=2X+1. These two parameters (weights and biases) are the two output components of any machine learning model.
