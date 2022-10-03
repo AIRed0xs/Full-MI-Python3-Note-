@@ -1,0 +1,2 @@
+We have already seen that the model was simple, so one might try other complex models such as Random Forest, decision trees, or ensemble methods
+Since we will be covering those models in the next labs, let's save this option for then. Also, it's important to note that most often, if you have a simple dataset, simple models will work well since complex models can overfit the data. Also, good model comes from a good data, so it's best to spend time curating data than bouncing back and forth in models.
