@@ -36,3 +36,47 @@ The target feature is price range and it has four price ranges: 0(low cost), 1(m
 
 There is another interesting insight to draw from the correlation. It seems that the feature fc(the megapixels of front camera) is correlated with pc which is the megapixels of the primary camera.
 
+Take an example, if we divide our training data into 10 subsets (commonly known as folds), each subset will take 10% of the whole data. As a result of using cross validation, we will train 10 different models where each model is trained on 9 different subsets and validated on 1 subset or fold, iteratively. By the end of such process, we will have 10 different model scores.
+
+training both logistic regression, SGD classifier and trees classifier on different subsets of datasets returned different accuracy scores
+
+Even if they both didn't improve much, cross validation can help you to improve your model. 
+
+cross validation can help you to improve your model. But since it depends on the dataset, it's fair to say that it is not guarranted to work well always.
+
+decision tree classifier trained on full data, it had 100% but when evaluated with cross validation, it did poor.
+
+We would keep to try other complex models like Random Forests and Support Vector Machines but quite often, they would not improve our results because we have small data. And also, it's better to quickly get few models which work well and spend time improving the data than relying on tuning hyperparameters.
+
+So far the only good model we have for our dataset is Logistic regression model.
+
+There can be a confusion that the model saw the data that it is going to be predicted on, but not really! That is the advantage of using cross validation.
+
+https://jeande.tech/how-to-read-a-confusion-matrix
+
+More intuitively, a confusion matrix is made of 4 main elements: True negatives, false negatives, true positives, and false positives.
+
+    True Positives(TP): Number of samples that are correctly classified as positive, and their actual label is positive.
+
+    False Positives (FP): Number of samples that are incorrectly classified as positive, when in fact their actual label is negative.
+
+    True Negatives (TN): Number of samples that are correctly classified as negative, and their actual label is negative.
+
+    False Negatives (FN): Number of samples that are incorrectly classified as negative, when in fact their actual label is positive.
+
+Accuracy is the commonly used metric in classification problems. It tells how accurate the model is at making correct predictions. 
+
+Precision shows the ability of the classifier to recognize positive samples correctly. The recall is the percentage of positive predictions over all positive samples.
+
+Both accuracy, precision, and recall can be calculated easily by using a confusion matrix. A confusion matrix shows the number of correct and incorrect predictions made by a classifier in all available classes.
+
+The predicted classes are on the column axis, whereas the actual classes are on the row axis. Remember that the target feature is a price range and it has 4 classes: 0(low cost), 1(medium cost), 2(high cost) and 3(very high cost).
+
+So from the confusion matrix above:
+
+    The model correctly classified 488 low cost phones as low cost, 12 low cost phones were incorrectly classified as medium cost phones
+    The model correctly classified 441 medium cost phones as medium phones, incorrectly classified 31 medium cost phones as low cost when in fact they are medium cost, and also incorrectly classified as 28 medium costs phones as high cost when they are not
+    430 were correctly classified as high cost, 35 high cost incorrectly classified as medium cost and very high cost.
+    490 very high cost phones were correctly classified as very high cost, 10 very high cost phones were incorrectly classified as high cost.
+
+We can also use classification_report to display other metrics.
